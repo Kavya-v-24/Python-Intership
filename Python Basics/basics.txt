@@ -1,0 +1,47 @@
+
+
+l=['jgkf','kd',2,45,0]
+l.append(789)
+print(l)
+l[-3]='kookj'
+print(l)
+l.insert(2,2940)
+print(l)
+l.remove(2)
+del l[0]
+print(l)
+print(len(l))
+k=[988,'jjjdj',9040]
+z=l+k
+print(z)
+p=('hii',9857,'hdkj',384,True)
+t=list(p)
+print(p)
+t[1]='hjdjj'
+print(t)
+o=(7876,785,'hjfhdhd')
+y=p+o
+print(y)
+count=y.count
+print(count)
+g={'uiuehud','jks','jks','73682',True}
+g.add('hhfj')
+print(g)
+s=(True,False)
+g.update(s)
+pprint.pprint(g)
+p={'appple':10,"bannana":30,"cherry":98,"ma":40,87:'uuah','hbs':89,'jfcnjfj':"id3od",'dejd':"denu",'apple':98}
+x=p["cherry"]
+print(x)
+f=p.keys()
+e=p.values()
+r=p.items()
+print(f )
+print(e)
+print(r)
+print(p)
+p["color"]="black"
+print(p)
+p.update({"color":"red"})
+del p["apple"]
+print(p)
